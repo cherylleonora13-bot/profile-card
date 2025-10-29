@@ -1,0 +1,53 @@
+.card {
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: blanchedalmond;
+}
+
+.card:hover {
+    box-shadow: 0 4px 10px black (0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.card {
+    border: 3px dashed black;
+    border-radius: 5px;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.profilePicture {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 3px solid rgb(134, 70, 27);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: cornsilk;
+}
+
+.card:hover {
+    scale: calc(1.1);
+}
